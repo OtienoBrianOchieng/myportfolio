@@ -23,7 +23,7 @@ export default function Navbar() {
             <ul className="flex space-x-8 text-white">
                 {navElements.map((element, index) => (
                     <li onClick = {() => activate(index)} 
-                        className= {`${active === index? 'underline' : ''} text-black`}
+                        className= {`${active === index? 'underline' : ''} text-black text-xl`}
                         key={index}>
                         <a href= {`#${element.id}`}>
                             {element.name}

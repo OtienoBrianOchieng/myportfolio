@@ -16,7 +16,7 @@ function App() {
             <section>
               <Navbar />
             </section>
-            <section id="about">
+            {/* <section id="about">
               <h2>About Section</h2>
             </section>
             <section id="projects">
@@ -27,7 +27,7 @@ function App() {
             </section>
             <section>
               <Footer />
-            </section>
+            </section> */}
         </div>
     </>
   )
