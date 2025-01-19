@@ -1,9 +1,16 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faClipboardList } from '@fortawesome/free-solid-svg-icons';
+
 
 export default function Projects() {
   return (
     <div className="max-w-screen-xl mx-auto px-4 py-8">
-        <h2 className="text-3xl font-extrabold text-gray-900 mb-6 border-b-2 border-black">Projects</h2>
+                <div className="flex items-center space-x-2 p-2 border-b-2 bg-black border-black mb-6">
+                            <FontAwesomeIcon icon={faClipboardList} 
+                            className="h-14 w-14 text-[#FFD700] mb-2" />
+                            <h2 className="text-3xl font-extrabold text-white ">Projects</h2>          
+                </div>
 
         {/* Poaplan Project */}
         <div className="mb-8">
@@ -16,7 +23,7 @@ export default function Projects() {
             <li>Front-end built using React.js, Vanilla JavaScript, and Tailwind CSS.</li>
             <li>Mobile responsive design for all devices.</li>
         </ul>
-        <a href="https://poaplan.com" className="text-blue-500 underline mt-4 inline-block">View Project</a>
+        <a href="https://poaplan.com" target='_blank' className="text-blue-800 font-bold text-2xl underline mt-4 inline-block">View Project</a>
         </div>
 
         {/* Lipa Kesho Project */}

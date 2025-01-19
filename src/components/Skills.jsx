@@ -1,9 +1,16 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLightbulb} from '@fortawesome/free-solid-svg-icons';
 
 export default function Skills() {
   return (
         <div className="max-w-screen-xl mx-auto px-4 py-8">
-            <h2 className="text-3xl font-extrabold text-gray-900 mb-6 border-b-2 border-black">Skills</h2>
+            
+                            <div className="flex items-center space-x-2 p-2 border-b-2 bg-black border-black mb-6">
+                                        <FontAwesomeIcon icon={faLightbulb} 
+                                        className="h-14 w-14 text-[#FFD700] mb-2" />
+                                        <h2 className="text-3xl font-extrabold text-white ">Skills</h2>          
+                            </div>
         
             <div className="space-y-4">
                 <div>

@@ -3,9 +3,8 @@ import React from 'react';
 export default function Footer() {
     // Fake social media links
     const socialLinks = {
-        twitter: "https://twitter.com/johndoe",
-        linkedin: "https://linkedin.com/in/johndoe",
-        github: "https://github.com/johndoe"
+        linkedin: "https://www.linkedin.com/in/brian-ochieng-490686243/",
+        github: "https://github.com/OtienoBrianOchieng"
     };
 
  
@@ -21,6 +20,7 @@ export default function Footer() {
                     {/* Middle section - footer links */}
                     <div className="space-x-6">
                         <a href="#about" className="hover:text-blue-400">About</a>
+                        <a href="#education" className="hover:text-blue-400">Education</a>
                         <a href="#skills" className="hover:text-blue-400">Skills</a>
                         <a href="#projects" className="hover:text-blue-400">Projects</a>
                         <a href="#catalog" className="hover:text-blue-400">Catalog</a>
@@ -29,9 +29,6 @@ export default function Footer() {
 
                     {/* Right section - social media links */}
                     <div className="space-x-6">
-                        <a href={socialLinks.twitter} target="_blank" rel="noopener noreferrer" className="hover:text-blue-400">
-                            Twitter
-                        </a>
                         <a href={socialLinks.linkedin} target="_blank" rel="noopener noreferrer" className="hover:text-blue-400">
                             LinkedIn
                         </a>

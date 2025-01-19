@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 export default function Hero() {
   return (
  
@@ -9,7 +10,7 @@ export default function Hero() {
             <p className="text-black text-2xl ">Brian is a full-stack software developer proficient in Javascript and python. He has experience in Mobile Apps and Web development. Additionally, he is also a fun of C-language and Arduino.</p>
         </div>
         <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
-        <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/phone-mockup.png" alt="Phone mockup showcasing the app interface" class="w-full h-auto "/>
+        <img src= "/backgroundimage.jpeg" alt="Brian Ochieng Image" className="w-full h-auto "/>
 
         </div>                
     </div>

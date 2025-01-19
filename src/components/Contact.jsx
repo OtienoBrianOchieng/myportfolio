@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCommentAlt } from '@fortawesome/free-solid-svg-icons';
 
 export default function Contact() {
     // Fake data for contact section
@@ -16,7 +18,11 @@ export default function Contact() {
     return (
         
             <div className="max-w-7xl mx-auto px-4">
-                <h2 className="text-3xl font-semibold border-b-2 border-black">Contact Brian</h2>
+                    <div className="flex items-center space-x-2 p-2 border-b-2 bg-black border-black mb-6">
+                        <FontAwesomeIcon icon={faCommentAlt} 
+                         className="h-14 w-14 text-[#FFD700] mb-2" />
+                        <h2 className="text-3xl font-extrabold text-white ">Contact Brian</h2>          
+                    </div>
                 <p className="mt-4 text-lg text-gray-700">Feel free to reach out to me via the contact form.</p>
 
                 {/* Contact Form */}
@@ -25,21 +31,24 @@ export default function Contact() {
                     <form>
                         <input 
                             type="text" 
-                            placeholder="Your Name" 
+                            placeholder="Name" 
+                            required
                             className="w-full p-3 mt-4 border border-gray-300 rounded-md"
                         />
                         <input 
                             type="email" 
-                            placeholder="Your Email" 
+                            placeholder="Email" 
+                            required
                             className="w-full p-3 mt-4 border border-gray-300 rounded-md"
                         />
                         <textarea 
-                            placeholder="Your Message" 
+                            placeholder="Message" 
+                            required
                             className="w-full p-3 mt-4 border border-gray-300 rounded-md"
                         />
                         <button 
                             type="submit" 
-                            className="w-full bg-blue-600 text-white py-3 mt-4 rounded-md hover:bg-blue-700"
+                            className="w-full bg-gray-600 text-white py-3 mt-4 rounded-md hover hover:bg-gray"
                         >
                             Send Message
                         </button>
