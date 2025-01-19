@@ -16,29 +16,27 @@ function App() {
 
   return (
     <>
-        <div>
-            <section>
+          <div>
               <Navbar />
-            </section>
             <section>
               <Hero />
             </section>
-            <section id="about">
+            <section id="about" className='pt-12'>
               <About />
             </section>
-            <section id="education">
+            <section id="education" className='pt-12'>
               <Education />
             </section>
-            <section id="skills">
+            <section id="skills" className='pt-12'>
               <Skills />              
             </section>
-            <section id="projects">
+            <section id="projects" className='pt-12'>
               <Projects />              
             </section>
-            <section id="catalog">
+            <section id="catalog" className='pt-12'>
               <Catalog />            
             </section>
-            <section id="contact">
+            <section id="contact" className='pt-12'>
               <Contact />
             </section>
             <section>

@@ -18,7 +18,7 @@ export default function Contact() {
     return (
         
             <div className="max-w-7xl mx-auto px-4">
-                    <div className="flex items-center space-x-2 p-2 border-b-2 bg-black border-black mb-6">
+                    <div className="flex items-center space-x-2 p-2 border-b-2 bg-black border-black mb-2">
                         <FontAwesomeIcon icon={faCommentAlt} 
                          className="h-14 w-14 text-[#FFD700] mb-2" />
                         <h2 className="text-3xl font-extrabold text-white ">Contact Brian</h2>          

@@ -29,7 +29,7 @@ export default function Catalog() {
     
   return (
         <div className="relative py-8 px-4 max-w-screen-xl mx-auto">
-                <div className="flex items-center space-x-2 p-2 border-b-2 bg-black border-black mb-6">
+                <div className="flex items-center space-x-2 p-2 border-b-2 bg-black border-black mb-2">
                    <FontAwesomeIcon icon={faBox} 
                    className="h-14 w-14 text-[#FFD700] mb-2" />
                    <h2 className="text-3xl font-extrabold text-white ">Catalog</h2>          
