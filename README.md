@@ -45,15 +45,15 @@ Example:
 
 3. Skills Section
 
-    A list of the technologies and tools you are proficient in.
-    You can use icons or a grid layout for better visual representation.
-    Include both front-end (React, JavaScript, HTML, CSS, etc.) and back-end (Node.js, Express, etc.) skills if applicable.
-    You can also include soft skills (problem-solving, communication, etc.).
-    React.js (for the main UI)
-    React Router (for navigation between sections/pages)
-    Styled-components / CSS / TailwindCSS (for styling)
-    EmailJS or Formik + Backend API (for form submissions)
-
+    Front-end: React native and React JS, JavaScript, HTML, CSS
+    Back-end Python and flask, hosting on CPANEL
+    C langyuage
+    Arduino programming 
+    Wordpress
+    CSS / TailwindCSS 
+    Restful APIs
+    Additional skills Excel SPSS, Powerpoint, Word, and Publisher
+     Soft skills - problem-solving, critical thinking and creativity, interpersonal relationships, and communication, cultural intelligence, and emotional awareness
 
 Example:
 
