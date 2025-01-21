@@ -9,6 +9,7 @@ export default function Contact() {
     const [email, setEmail] = useState('')
     const [message, setMessage] = useState('')
     const [isSending, setIsSending] = useState(false)
+    const [sent, setSent] = useState(false)
     const [error, setError] = useState (null)
 
     const handleSendEmail = (e) => {
@@ -36,11 +37,16 @@ export default function Contact() {
           
         .then (
             (res) => {
-                alert("Thank you for contacting Brian!")
                 setIsSending(false)
                 setName('')
                 setEmail('')
                 setMessage('')
+                setSent(true)
+                setTimeout(
+                    () => {
+                        setSent(false)
+                    }, 3000
+                )
                      },
         (err) => {
             setError("Unexpected error occured. Try again.")
@@ -106,6 +112,14 @@ export default function Contact() {
                     </>)}
                     {isSending && <h3 className="text-3xl text-center font-semibold text-green-800 mb-8 mt-8 animation-pulse">Sending ...</h3>}
                     {error && !isSending && <h3 className="text-3xl text-center font-semibold text-red-800 mb-8 mt-8">{error}</h3>}
+                    {sent && (
+                        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-80 z-50">
+                            <h3 className="text-3xl font-semibold bg-white text-green-800 text-center w-1/2 p-8">
+                            Sent
+                            </h3>
+                        </div>
+                        )}
+
                 </div>
             </div> 
     );
