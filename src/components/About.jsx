@@ -15,9 +15,9 @@ export default function About() {
           </div>
         <p className="text-lg text-black mb-2">
           I have a passion for creating impactful technology that addresses real-world challenges. 
-          My journey in software development began with my completion of a Software Engineering program at Moringa School, where I met greate instructors, colleagues and worked with diverse teams as a student and students representative. 
+          My journey in software development began with my completion of a Software Engineering program at Moringa School, where I met great instructors, colleagues and worked with diverse teams as a student and students' representative. 
           The experience impressed on me the value of people and interpersonal relationships. 
-          I love engaging in complex problems focus on building adaptable, empathetic applications.
+          I love engaging in complex problems, focus on building adaptable and client-oriented applications.
           Besides programming, I also love watching movie series, documentaries, time with friends and family, and road trips. 
         </p>
     </div>
