@@ -7,6 +7,9 @@ export default function Footer() {
         github: "https://github.com/OtienoBrianOchieng"
     };
 
+    const date = new Date ()
+    const year = date.getFullYear () 
+
  
     return (
            <div className="bg-gray-800 text-white py-12 mt-16">
@@ -14,7 +17,8 @@ export default function Footer() {
                 <div className="flex justify-between items-center">
                     {/* Left section - copyright */}
                     <div>
-                        <p className="text-sm">&copy; 2025 John Doe. All Rights Reserved.</p>
+                        <p className="text-sm">&copy; {year} Brian Ochieng</p>
+                        <p className="text-sm"> Local time: {date.toLocaleTimeString()}</p>
                     </div>
 
                     {/* Middle section - footer links */}
